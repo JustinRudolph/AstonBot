@@ -46,7 +46,7 @@ export class AstonDiscordBotCdkStackStack extends cdk.Stack {
         streamPrefix: 'MyApp'
       }),
       environment: {
-        'DISCORD_BOT_TOKEN': 'MTI0MDM4ODk2MDk5NjU1NjgxMA.GSUHrA.Yzblrjl17UJQAwfnZx0ErVFThI7TaZCl_nCVOM',
+        'DISCORD_BOT_TOKEN': 'token-here',
         'DB_HOST': rdsInstance.dbInstanceEndpointAddress,
         'DB_PORT': rdsInstance.dbInstanceEndpointPort,
         'DB_NAME': 'mydatabase',
